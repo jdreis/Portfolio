@@ -1,9 +1,37 @@
 body {
-    background-color: rgb(176, 165, 196);
+    background: linear-gradient(rgba(0, 0, 0, 0.705), rgba(0, 0, 0, 0.705)),url(https://images.pexels.com/photos/160107/pexels-photo-160107.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:rgb(87, 105, 119);
+    color: white;
+    font-family: 'Roboto', sans-serif;
 }
-.font-color-name {
-    color: rgb(240, 17, 17);
+
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 65px;
+    text-align: center;
+    
+    
 }
 h2 {
-    color: rgb(54, 54, 54);
+    font-family: 'Raleway', sans-serif;
+    color: rgb(165, 165, 165);
+    font-size: 20px;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+.center-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.center-text {
+    text-align:center;
+    text-decoration: underline;
 }
